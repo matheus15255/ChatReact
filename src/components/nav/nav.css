@@ -1,0 +1,21 @@
+.nav {
+  max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 25px;
+  padding-top: 30px;
+  background-color: orange;
+}
+.nav img {
+  display: block;
+  max-width: 175%;
+  cursor: pointer;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  margin-left: -20px;
+}
+.nav img:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
